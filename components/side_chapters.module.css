@@ -1,0 +1,76 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Full height */
+  justify-content: space-between;
+}
+
+.sidebar {
+  /* display: flex; */
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-right: 1px solid #b2ebf2;
+  height: 100%;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+.chapterList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chapterItem {
+  margin-bottom: 10px;
+}
+
+.chapterButton {
+  background: none;
+  border: none;
+  color: #00796b;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chapterButton:hover {
+  background-color: #e0f7fa;
+}
+
+.topicList {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.topicItem {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.topicsContainer {
+  display: flex;
+  position:absolute;
+  margin-left: 25%;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f0f9ff;
+  height: 150px; 
+  overflow-y: auto; 
+  border-bottom: 1px solid #b2ebf2; 
+}
